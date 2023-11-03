@@ -7,8 +7,8 @@ namespace LastSeenDemo
     {
         [Theory]
         [InlineData(0)]
-       // [InlineData(1)]// я хотів це завалити
-       // [InlineData(-4)]// я хотів це завалити
+        [InlineData(1)]// я хотів це завалити
+        [InlineData(-4)]// я хотів це завалити
         public void ReturnTotalTimeOnline(int expected)
         {
             Assignment4Features features = new Assignment4Features();
